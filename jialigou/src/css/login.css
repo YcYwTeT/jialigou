@@ -1,0 +1,52 @@
+body{background: #F7F7F7;}
+.main_color{color:#e91456;}
+#login_top{width:1190px;height:74px;line-height:74px;margin:10px auto;padding: 36px 0 20px;}
+#login_top a{display:inline-block;vertical-align:middle;}
+#login_top a img{vertical-align:middle;}
+#login_top>span{display:inline-block;vertical-align:middle;}
+#login_top>span>span{border-left:2px solid #ccc;padding-left:20px;font-size:17px;}
+#login_top>a>span{font-size:12px;padding:0 5px;border-left:2px solid #ccc;border-right:2px solid #ccc;margin-right:5px;}
+#login_top>a:hover{text-decoration:underline;color:#e91456;}
+
+#login_main{width:1200px;margin:30px auto 20px;}
+#login_main a:hover{text-decoration:underline;color:#e91456;}
+#login_main .login_left{font-size:0;}
+#login_main .login_right{width:350px;height:375px;margin:0 auto;text-align:center;background-color:#fff;}
+#login_main .login_right .lr_base{width:273px;height:30px;line-height:36px;display:inline-block;padding-left:2px;}
+#login_main .login_right div:first-child{font-size:14px;}
+#login_main #password{margin:16px 0;}
+#login_main .codeIn{width:273px;display:inline-block;text-align:left;}
+#login_main #code{width:150px;margin-bottom:10px;}
+#login_main #codeBox{width:80px;vertical-align:middle;font-size:20px;}
+#login_main #codeBox span{display:inline-block;padding-right:2px;}
+#login_main .login_right .auto{display:inline-block;width:275px;height:36px;line-height:36px;text-align:left;font-size:12px;}
+#login_main .auto label{vertical-align:middle;color:#444;}
+#login_main .auto label input{vertical-align:middle;}
+#login_main .auto a{vertical-align:middle;color:#444;}
+#login_main #loginBtn{width:273px;line-height:32px;background-color:#e91456;color:#fff;border:none;}
+#login_main .login_p{height:36px;line-height:36px;border-bottom:1px solid #E8E8E7;padding-top:20px;color:#444;font-size:12px;}
+#login_main .qqLog{display:inline-block;font-size:12px;margin-top:20px;}
+#login_main .qqLog i{display:inline-block;width:16px;height:16px;background:url(../../imgs/elves_all.fw.png) center center;background-position:0 0;vertical-align:middle;}
+#login_main .weiLog{display:inline-block;width:57px;height:21px;background:url(../../imgs/elves_all.fw.png) center center;background-position:-50px 0;vertical-align:middle;}
+
+
+
+
+#login_foot{margin:0;margin-top:20px;background:#fff;font-family:"微软雅黑";font-size:14px;}
+.f_help{overflow:hidden;padding:10px 0;}
+.f_help .f_h_content{width:1200px;margin:0 auto;}
+.f_help .f_h_content .f_2d{float:left;width:123px;height:123px;background:url(../../imgs/login_code.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;margin-right:20px;margin-top:13px;display:inline;}
+.f_help .f_h_content .f_help_list{float:left;margin-left:30px;border:1px solid #ccc;border-bottom:none;border-top:none;padding-left:20px;display:inline;}
+.f_help .f_h_content .f_help_list .f_h_list{float:left;width:100px;margin:0 20px;display:inline;}
+.f_help .f_h_content .f_help_list .f_h_list strong{display:block;height:30px;width:120px;line-height:30px;font-size:14px;}
+.f_help .f_h_content .f_help_list .f_h_list a{display:block;height:30px;width:120px;line-height:30px;font-size:12px;color:#444;}
+.f_help .f_h_content .call_rz{float:right;width:260px;height:65px;margin-top:35px;background:url(../../imgs/login_call.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;}
+.foot_sv{height:46px;margin:0 0 10px 0;}
+.foot_sv .sv_con{width:1200px;height:46px;overflow:hidden;margin:0 auto;background:url(../../imgs/foot_info.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;}
+.foot_txt{height:150px;margin:0 auto;overflow:hidden;background:#F8F8F8;}
+.foot_txt a{font-size:12px;color:#444;}
+.foot_txt p{line-height:35px;text-align:center;color:#999;}
+.foot_txt .rz{height:42px;width:100%;overflow:hidden;}
+.foot_txt .rza{margin:0;padding:0;}
+.foot_txt .rzimg{ margin:0 10px;}
+.foot_txt .aboutMe{font-size:12px;}

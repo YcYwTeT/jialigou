@@ -1,0 +1,7 @@
+.main_color{color:#e91456;}
+#login_top{width:1190px;height:74px;line-height:74px;margin:10px auto;padding: 36px 0 20px;}
+#login_top a{display:inline-block;vertical-align:middle;}
+#login_top a img{vertical-align:middle;}
+#login_top>span{display:inline-block;vertical-align:middle;}
+#login_top>span>span{border-left:2px solid #ccc;padding-left:20px;font-size:17px;}
+#login_top>div{height:30px;line-height:30px;border:1px solid #e91456;}

@@ -1,0 +1,512 @@
+i,em{font-style: normal}
+// li{list-style: none;}
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+#index_top{
+    font-size: 12px;
+    padding-bottom: 10px;
+    .indexT_cont{
+        color:#444;
+        clear: both;
+        width: 1190px;
+        height: 26px;
+        line-height: 26px;
+        margin: 0 auto;
+        background: #f7f7f7;
+        padding: 5px;
+        a:hover{
+            color: #e91456;
+            text-decoration: underline;
+        }
+        .indexT_call{
+            width: 230px;
+            height: 21px;
+            line-height: 21px;
+            top: 3px;
+            margin: 0 10px 0 0;
+            i{
+                display: inline-block;
+                width: 17px;
+                height: 16px;
+                background: url(../../imgs/elves_all.fw.png) no-repeat;
+                background-position: -130px 0;
+                vertical-align: middle;
+            }
+            span{
+                vertical-align: middle;
+            }
+            .del{
+                font-size:14px;
+                color: #e91456;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+        }
+        >ul:nth-child(2){
+            >li{
+                float: left;
+                margin: 0 10px 0 0;
+            }
+        }
+        >ul:last-child{
+            li{
+                float: left;
+                margin-left: 10px;
+                color: #e91456;
+                    text-decoration: underline;
+                }
+                a{
+                    vertical-align: middle;
+                    color: #444;
+                }
+                a:hover{
+                    color: #e91456;
+                    text-decoration: underline;
+                }
+            }
+            li:last-child::before{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background: url(../../imgs/elves_all.fw.png) no-repeat;
+                background-position: -180px 0;
+                vertical-align: middle;
+                margin-right: 4px;
+            }
+        }
+    .index_search{
+        clear: both;
+        width: 1190px;
+        height: 74px;
+        line-height: 74px;
+        margin: 10px auto 0;
+        background: #fff;
+        form{
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 219px;
+            input[type="text"]{
+                    width: 320px;
+                    height: 30px;
+                    line-height: 30px;
+                    padding: 0;
+                    padding-left: 5px;
+                    font-size: 12px;
+                    border: 0;
+                    color: #777;
+                    background: #fff;
+                    border: 1px solid #e21357;
+                    vertical-align: middle;
+            }
+            >button{
+                    margin-left: -6px;
+                    font-weight: bold;
+                    box-sizing: content-box;
+                    padding: 0 12px;
+                    height: 30px;
+                    line-height: 30px;
+                    border: 1px solid #2d88bf;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    word-spacing: normal;
+                    text-align: center;
+                    cursor: pointer;
+                    border-color: #e21357;
+                    background: #e21357;
+                    color: #fff;
+                    vertical-align: middle;
+            }
+            >button::before{
+                        content: '';
+                        display: inline-block;
+                        width: 15px;
+                        height: 16px;
+                        background: url(../../imgs/elves_all.fw.png) no-repeat;
+                        background-position: -240px 0;
+                        vertical-align: middle;
+                        margin-right: 2px;
+                    }
+        }
+        img{
+            vertical-align: middle;
+        }
+        >.shoppingCar{
+            display: inline-block;
+            float: right;
+            width: 136px;
+            height: 28px;
+            line-height: 28px;
+            margin: 28px 0 0 0;
+            padding: 0 10px;
+            border: 1px solid #E8E8E7;
+            font-size: 12px;
+            color: #444444;
+            background: #fff;
+            span:first-child{
+                display: inline-block;
+                width: 16px;
+                height: 13px;
+                margin-right: 25px;
+                background: url(../../imgs/elves_all.fw.png) no-repeat;
+                background-position: -290px 0;
+                vertical-align: middle;
+                position: relative;
+                i{
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    background: url(../../imgs/elves_all.fw.png) no-repeat;
+                    background-position: -358px 0;
+                    position: absolute;
+                    right: -15px;
+                    top: -7px; 
+                    line-height: 16px;
+                    font-size: 12px;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+.index_nav{
+    border-bottom: 2px solid #e91455;
+    #index_nav{
+        width: 1000px;
+        height: 34px;
+        margin: 0 auto; 
+        position: relative;
+        .allGoods{
+            width:190px;
+            float: left;
+            position: absolute;
+            left:-96px;
+            z-index: 100;
+            >div{
+                height: 36px;
+                line-height: 36px;
+                padding-left: 10px;
+                background: #e91456;
+                color: #ffffff;
+                z-index: 999999;
+                font-weight: bold;
+            }
+            .goods{
+                display: none;
+                width: 190px;
+                height: 480px;
+                background-color: #3B2C33;
+                position: relative;
+                .good_sort{
+                    padding: 3px 0 3px 10px;
+                    >li{
+                        >span{
+                            display: inline-block;
+                            height: 12px;
+                            line-height: 12px;
+                            font-size: 12px;
+                            padding-right: 2px;
+                            color: #fff;
+                        }
+                    }
+                    >li:first-child{
+                        >a{
+                            display:inline-block;
+                            height: 30px;
+                            font-size: 14px;
+                            line-height: 30px;
+                            font-weight: bold;
+                        }
+                    }
+                    >li:last-of-type{
+                        margin-top: -6px;
+                    }
+                    .good_detail{
+                        position: absolute;
+                        width: 570px;
+                        height: 480px;
+                        background: #fff;
+                        left: 190px;
+                        top: 0px;
+                        padding: 0 10px 0 12px;
+                        color: #3B2C33;
+                        font-weight: bold;
+                        >li{
+                            a{
+                                font-family: '微软雅黑';
+                                display: inline-block;
+                                height: 30px;
+                                line-height: 30px;
+                                font-size: 12px;
+                            }
+                            a::after{
+                                content: ' >';;
+                            }
+                            a:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        >ul{
+            margin-left: 96px;
+            >li{
+                height: 36px;
+                float: left;
+                line-height: 36px;
+                a{
+                    display: inline-block;
+                    font-family: "Microsoft Yahei";
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: rgb(68,68,68);
+                    vertical-align: middle;
+                }
+                a:hover{
+                    color: #e91456;
+                }
+            }
+            >li:nth-child(2n){
+                a{
+                    padding: 0 20px;
+                }
+            }
+            >li:nth-child(n){
+                font-size:12px;
+                color: #ccc;
+                vertical-align: middle;
+            }
+            >li:nth-child(1){
+                padding-left: 6px;
+            }
+        }
+        >.hotLink{
+            height: 34px;
+            margin-right: 100px;
+            color: #000;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 34px;
+            >span{
+                color:#E91456;
+            }
+        }
+    }
+}
+#list_main{
+    width: 1190px;
+    margin: 0 auto;
+    .goods{
+        border: 1px solid #E8E8E7;
+    }
+    .list_title{
+        height: 30px;
+        line-height: 30px;
+        padding: 0 25px;
+        font-size: 12px;
+        color: #444444;
+        a:hover{
+            color: #e91456;
+            text-decoration: underline;
+        }
+    }
+    .list_left{
+        width: 190px;
+        .good_sort{
+            >li{
+                background: rgb(232, 232, 231);
+                height: 30px;
+                line-height: 30px;
+                font-size: 12px;
+                color: #000;
+                padding: 0 25px;
+                border-bottom: 1px solid rgb(255, 255, 255);
+                cursor: pointer;
+            }
+            .good_detail{
+                display:none;
+                >li{
+                    width: 140px;
+                    border-bottom: 1px solid #fff;
+                    line-height: 25px;
+                    padding: 5px 25px;
+                    font-size: 12px;
+                    a{
+                        color: #444444;
+                        font-weight: bold;
+                    }
+                    a:hover{
+                        color: #e91456;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .good_detail_active{
+                display: block;
+            }
+        }
+    }
+    .list_right{
+        width: 990px;
+        border: 1px solid #E8E8E7;
+        .list_main_title{
+            width: 980px;
+            line-height: 30px;
+            font-size: 12px;
+            color: rgb(68, 68, 68);
+            border-bottom: 1px solid #E8E8E7; 
+            >div{
+                border-bottom: 1px solid #E8E8E7; 
+                padding-left: 10px;
+                .goods_classify{
+                    display: inline-block;
+                    >a,>span{
+                        margin-right: 5px;
+                        color: #444;
+                        padding: 0 4px;
+                    }
+                    a:hover,span:hover{
+                        color: #e91456;
+                        text-decoration: underline;
+                        cursor : pointer;
+                    }
+                }
+            }
+            >button{
+                background: #eee;
+                border: none;
+                padding: 2px 5px;
+                margin-left: 8px;
+                color: rgb(68, 68, 68);
+            }
+            >span{
+                display: inline-block;
+                font-size: 18px;
+                padding-left: 10px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .priceSortFlag{
+                display: none;
+            }
+
+        }
+    .list_main{
+        padding-top: 10px;
+        >li{
+            height: 335px;
+            width: 228px;
+            border: 1px solid #ffffff;
+            margin-left: 14px;
+            float: left;
+            img{
+                width: 218px;
+                height: 218px;
+                padding: 5px;
+            }
+            .proName{
+                display: inline-block;
+                padding-top: 5px;
+                padding-left: 10px;
+                white-space: nowrap;
+                text-overflow:ellipsis;
+                overflow: hidden;
+                color: rgb(68, 68, 68);
+                width: 100%;
+                }
+                a{
+                    font-size: 12px;
+                    color: rgb(68, 68, 68);
+                }
+            }
+            .proPrice{
+                padding-left: 7px;
+                color: #e91456;
+            }
+            .toCar{
+                text-align: center;
+                >button{
+                    height: 30px;
+                    margin-right: 10px;
+                    color: #333;
+                    border: 1px solid #d0d0d0;
+                    background: #f3f3f3;
+                    padding: 0 12px;
+                }
+            }
+        }
+        li:hover{
+            border: 1px solid #E8E8E7;
+        }
+    }
+    .page{
+        height: 60px;
+        text-align: center;
+        font-size: 12px;
+        color: rgb(68, 68, 68);
+        line-height: 60px;
+        .all_qty{
+            >span{
+                margin: 0;
+            }
+        }
+        span{
+            margin-left: 8px;
+            cursor: pointer;
+        }
+        .cuPage{
+            padding: 0 5px;
+            height: 20px;
+        }
+        .cuPage:nth-child(4){
+            color: #e91456;
+        }
+    }
+}
+#login_foot{
+    margin:0;margin-top:20px;background:#fff;font-family:"微软雅黑";font-size:14px;
+    .f_help{
+        overflow:hidden;padding:10px 0;
+        .f_h_content{
+            width:1200px;margin:0 auto;
+            .f_2d{
+                float:left;width:123px;height:123px;background:url(../../imgs/login_code.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;margin-right:20px;margin-top:13px;display:inline;
+            }
+            .f_help_list{
+                float:left;margin-left:30px;border:1px solid #ccc;border-bottom:none;border-top:none;padding-left:20px;display:inline;
+                .f_h_list{
+                    float:left;width:100px;margin:0 20px;display:inline;
+                    strong{display:block;height:30px;width:120px;line-height:30px;font-size:14px;}
+                    a{display:block;height:30px;width:120px;line-height:30px;font-size:12px;color:#444;}
+                    a:hover{
+                        color: #e91456;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .call_rz{float:right;width:260px;height:65px;margin-top:35px;background:url(../../imgs/login_call.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;}
+        }
+    }
+    .foot_sv{
+        height:46px;margin:0 0 10px 0;
+        .sv_con{width:1200px;height:46px;overflow:hidden;margin:0 auto;background:url(../../imgs/foot_info.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;}
+    }
+    .foot_txt{
+        height:150px;margin:0 auto;overflow:hidden;background:#F8F8F8;
+        a{font-size:12px;color:#444;}
+        a:hover{
+            color: #e91456;
+            text-decoration: underline;
+        }
+        p{line-height:35px;text-align:center;color:#999;}
+        .rz{height:42px;width:100%;overflow:hidden;}
+        .rza{margin:0;padding:0;}
+        .rzimg{ margin:0 10px;}
+        .aboutMe{font-size:12px;}
+    }
+}

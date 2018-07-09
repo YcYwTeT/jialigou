@@ -1,0 +1,445 @@
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+#index_top{
+    font-size: 12px;
+    padding-bottom: 10px;
+    .indexT_cont{
+        color:#444;
+        clear: both;
+        width: 1190px;
+        height: 26px;
+        line-height: 26px;
+        margin: 0 auto;
+        background: #f7f7f7;
+        padding: 5px;
+        a:hover{
+            color: #e91456;
+            text-decoration: underline;
+        }
+        .indexT_call{
+            width: 230px;
+            height: 21px;
+            line-height: 21px;
+            top: 3px;
+            margin: 0 10px 0 0;
+            i{
+                display: inline-block;
+                width: 17px;
+                height: 16px;
+                background: url(../../imgs/elves_all.fw.png) no-repeat;
+                background-position: -130px 0;
+                vertical-align: middle;
+            }
+            span{
+                vertical-align: middle;
+            }
+            .del{
+                font-size:14px;
+                color: #e91456;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+        }
+        >ul:nth-child(2){
+            >li{
+                float: left;
+                margin: 0 10px 0 0;
+            }
+        }
+        >ul:last-child{
+            li{
+                float: left;
+                margin-left: 10px;
+                color: #e91456;
+                    text-decoration: underline;
+                }
+                a{
+                    vertical-align: middle;
+                    color: #444;
+                }
+                a:hover{
+                    color: #e91456;
+                    text-decoration: underline;
+                }
+            }
+            li:last-child::before{
+                content: "";
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background: url(../../imgs/elves_all.fw.png) no-repeat;
+                background-position: -180px 0;
+                vertical-align: middle;
+                margin-right: 4px;
+            }
+        }
+    .car_logo{
+        clear: both;
+        width: 1190px;
+        height: 78px;
+        line-height: 74px;
+        margin: 10px auto 0;
+        background: #fff;
+        >a{
+            display: inline-block;
+            img{
+                vertical-align: middle;
+            }
+        }
+        >span{
+            font-size: 17px;
+            height: 74px;
+            line-height: 74px;
+            color: #444;
+            i{
+                font-style: normal; 
+                color: #c9c9c9;
+                padding-right: 15px;
+            }
+        }
+        >ul{
+            width: 528px;
+            height: 74px;
+            padding-top: 37px;
+            >.logoBar{
+                float: left;
+                font-size: 0;
+                width: 132px;
+                height: 0;
+                border-top: 4px solid #d2d2d2;
+                position: relative;
+                >span{
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: rgb(232, 19, 85);
+                    position: absolute;
+                    top: -7px;
+                    left: 50%;
+                    transform: translate(-50%,0);
+                }   
+            }
+            >.logoBar:first-child{
+                border-color: #e21357;
+            }
+            >li{
+                float: left;
+                width: 132px;
+                font-size:12px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                position: relative;
+                left: 0;
+            }
+        }
+    }
+}
+
+#car_goods{
+    .car_title{
+        font-size: 12px;
+        height: 20px;
+        color: #444;
+        line-height: 20px;
+        position: relative;
+        >a{
+            position: absolute;
+            display: inline-block;
+            right: 0;
+            color: red;
+        }
+    }
+    .all_goods{
+        width: 1190px;
+        border: 1px solid #c9c9c9;
+        border-bottom: none;
+        border-collapse:collapse; /*表格的边框合并，如果相邻，则共用一个边框*/
+        border-spacing:0; 
+        tr{
+            border-bottom: 1px solid #c9c9c9;
+            td,th{
+                box-sizing: border-box;
+                padding-left: 2px;
+                float: left;
+            }
+            td:first-child,th:first-child{
+                width: 262px;
+                img{
+                    width: 150px;
+                    vertical-align: middle;
+                }
+            }
+            td:nth-child(2),th:nth-child(2){
+                width: 310px;
+            }
+            td:nth-child(3),th:nth-child(3){
+                width: 152px;
+            }
+            td:nth-child(4),th:nth-child(4){
+                width: 152px;
+            }
+            td:nth-child(5),th:nth-child(5){
+                width: 157px;
+            }
+            td:last-child,th:last-child{
+                width: 155px;
+            }
+        }
+        thead{
+            width: 100%;
+            background-color: #eeeeee;
+            tr:first-child{
+                width: 100%;
+                th{
+                    font-size: 12px;
+                    height: 41px;
+                    line-height: 40px;
+                    float: left;
+                    font-weight: normal;
+                    text-align: left;
+                }
+            }
+        }
+        tfoot{
+            tr{
+                td{
+                    height: 120px;
+                    font-size: 12px;
+                    color: #444;
+                }
+                td:first-child{
+                    width: 550px;
+                    padding-top: 8px;
+                    label{
+                        padding: 0 5px;
+                        cursor: pointer;
+                    }
+                    .clearChoose{
+                        padding: 0 5px;
+                        cursor: pointer;
+                    }
+                    .clearCar{
+                        padding: 0 5px;
+                        cursor: pointer;
+                    }
+                }
+                td:nth-child(2){
+                    height: 30px;
+                    line-height: 30px;
+                }
+                td:last-child{
+                    width:310px;
+                    height: 120px;
+                    float: right;
+                    text-align: center;
+                    line-height: 120px;
+                    >input{
+                        width: 176px;
+                        height: 30px;
+                        padding: 0 12px;
+                        border: 1px solid #2d88bf;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #fff;
+                        border-color: #e21357;
+                        background: #e21357;
+                    }
+                }
+            }
+        }
+    }
+}
+#car_goods{
+    .goods_buy{
+        font-size: 12px;
+        line-height: 20px;
+        td:first-child{
+            >span{
+                display: inline-block;
+                width: 23px;
+                height: 24px;
+                vertical-align: middle;
+                background: url(../../imgs/elves_all.fw.png) no-repeat;
+                background-position: 0 -180px;
+                margin-right: 10px;
+            }
+            .good_choose_active{
+                background-position: -54px -180px;
+            }
+        }
+        td:nth-child(2){
+            padding-top: 15px;
+            >a{
+                font-size: 12px;
+                font-weight: bold;
+                color: rgb(68, 68, 68);
+            }
+        }
+        td:nth-last-child(-n+4){
+            height: 150px;
+            line-height: 150px;
+        }
+        td:nth-child(4){
+            >span{
+                button,input{
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    line-height: 24px;
+                    vertical-align: middle;
+                    text-align: center;
+                    background: #fff;
+                    border: none;
+                }
+            }
+            .reduce_btn,.add_btn{
+                font-size: 26px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .add_btn{
+                font-size: 18px;
+                width: 12px;
+            }
+            .reduce_btn{
+                line-height: 20px;
+                width: 14px;
+                margin-top: -4px;
+            }
+        }
+        td:last-child{
+            >span{
+                display: inline-block;
+                padding-top: 50px;
+                >button{
+                    display: block;
+                    line-height: 16px;
+                    background: #fff;
+                    border: none;
+                    font-size: 12px;
+                    cursor: pointer;
+                    margin-top: 2px;
+                }:hover{
+                    color: #e91456;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+#guessLike{
+    width: 1188px;
+    margin: 0 auto;
+    >p{
+        height: 40px;
+        line-height: 40px; 
+        font-size: 16px;
+        color: rgb(68, 68, 68);
+    }
+    .guessGoods{
+        border: 1px solid #E8E8E7;
+        height: 347px;
+        width: 1172px;
+        >li{
+            text-align: center;
+            width: 230px;
+            float: left;
+            margin-left: 3px;
+            padding: 10px 0px;
+            border: 1px solid rgb(255, 255, 255);
+            >a{
+                img{
+                    width: 220px;
+                    height: 220px;
+                }
+            }
+            >p{
+                height: 40px;
+                text-align: left;
+                >a{
+                    display: inline-block;
+                    font-size: 12px;
+                    color: rgb(68, 68, 68);
+                    line-height: 14px;
+                    padding: 0 5px;
+                }
+            }
+            >span{
+                color: #e91456;
+                display: block;
+                text-align: left;
+            }
+            >button{
+
+                display: inline-block;
+                padding: 0 12px;
+                height: 30px;
+                line-height: 30px;
+                border: 1px solid #2d88bf;
+                font-size: 14px;
+                letter-spacing: 1px;
+                word-spacing: normal;
+                text-align: center;
+                vertical-align: middle;
+                cursor: pointer;
+                border-color: #d0d0d0;
+                background: #f3f3f3;
+                color: #333;
+                margin: 5px;
+            }
+        }
+        >li:first-child{
+            margin: 0;
+        }
+        >li:hover{
+            border: 1px solid rgb(152, 152, 152);
+        }
+    }
+}
+#login_foot{
+    margin:0;margin-top:20px;background:#fff;font-family:"微软雅黑";font-size:14px;
+    .f_help{
+        overflow:hidden;padding:10px 0;
+        .f_h_content{
+            width:1200px;margin:0 auto;
+            .f_2d{
+                float:left;width:123px;height:123px;background:url(../../imgs/login_code.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;margin-right:20px;margin-top:13px;display:inline;
+            }
+            .f_help_list{
+                float:left;margin-left:30px;border:1px solid #ccc;border-bottom:none;border-top:none;padding-left:20px;display:inline;
+                .f_h_list{
+                    float:left;width:100px;margin:0 20px;display:inline;
+                    strong{display:block;height:30px;width:120px;line-height:30px;font-size:14px;}
+                    a{display:block;height:30px;width:120px;line-height:30px;font-size:12px;color:#444;}
+                    a:hover{
+                        color: #e91456;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .call_rz{float:right;width:260px;height:65px;margin-top:35px;background:url(../../imgs/login_call.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;}
+        }
+    }
+    .foot_sv{
+        height:46px;margin:0 0 10px 0;
+        .sv_con{width:1200px;height:46px;overflow:hidden;margin:0 auto;background:url(../../imgs/foot_info.jpg) no-repeat scroll 0 0;text-indent:-9999px;overflow:hidden;}
+    }
+    .foot_txt{
+        height:150px;margin:0 auto;overflow:hidden;background:#F8F8F8;
+        a{font-size:12px;color:#444;}
+        a:hover{
+            color: #e91456;
+            text-decoration: underline;
+        }
+        p{line-height:35px;text-align:center;color:#999;}
+        .rz{height:42px;width:100%;overflow:hidden;}
+        .rza{margin:0;padding:0;}
+        .rzimg{ margin:0 10px;}
+        .aboutMe{font-size:12px;}
+    }
+}
